@@ -2,7 +2,13 @@ const fs = require ('fs');
 const inquirer = require('inquirer');
 const jest = require('jest');
 
-function (){
+const Manager = require('./lib/Manager');
+const Engineer = require('./lib/Engineer');
+const Intern = require('./lib/Intern');
+
+
+
+// function (){
     console.log("Please Enter Team Manager Information");
 
 inquirer
@@ -28,3 +34,4 @@ inquirer
             message: "Enter team manager’s office number?"
         }
     ])
+}
