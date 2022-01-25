@@ -1,0 +1,26 @@
+{
+  "name": "team-generator",
+  "version": "1.0.0",
+  "description": "will generate a index html page with teams of user input",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymunye1/Team-generator.git"
+  },
+  "author": "Yasin Munye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ymunye1/Team-generator/issues"
+  },
+  "homepage": "https://github.com/ymunye1/Team-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "jest": "^27.4.7"
+  }
+}
