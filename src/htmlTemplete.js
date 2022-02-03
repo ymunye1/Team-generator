@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+function htmlTemplete (datainput) {
+
+return `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,7 +14,10 @@
     <h1 style="background-color: rgb(29, 159, 235); text-align: center; color: rgb(82, 66, 56); height: 90px;">Team Members</h1>
 
 <div class="container">
-    <div class="row justify content-center"></div>
+     <div class="row justify content-center">${datainput.join(' ')} </div>
 </div>
 </body>
-</html>
+</html>`
+}
+
+module.exports= htmlTemplete;
